@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-color: #060c5f;
+  --second-text-color: #1a1a1a;
+  --darker-bg: #eee;
+}
+
+
+
+.fa-bars,
+.fa-close {
+  display: none;
+}
+
+.about-section {
+  text-align: center;
+  padding: 100px 0;
+  color: var(--darker-bg);
+}
+
+.about-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.about-section p {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px auto;
+}
+
+.hero-section h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  max-width: 70%;
+  margin: 10px auto;
+}
+
+.hero-section img {
+  max-width: 1580px;
+  width: 100%;
+  height: auto;
+  margin: 25px auto;
+}
+
+.hero-section p {
+  color: var(--second-text-color);
+  font-size: 1.2rem;
+
+}
+
+#features,
+#installation {
+  background-color: var(--darker-bg);
+}
+
+#features h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.5rem;
+}
+
+.feature-grid-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 0;
+  margin-bottom: 30px;
+  margin: auto;
+  width: 85%;
+}
+
+.feature-img {
+  flex: 1 1 40%;
+  max-width: 1000px;
+}
+
+.feature-img img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.feature-text {
+  flex: 2 1 60%;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 2;
+  margin: 0 20px;
+  color: var(--second-text-color);
+}
+
+.feature-text p {
+  font-size: 1rem;
+  margin: 1.2rem 0;
+}
+
+#demo {
+  text-align: center;
+  margin: 25px auto;
+  padding: inherit 0;
+  background: none;
+  box-shadow: none;
+}
+
+#demo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--second-text-color);
+}
+.demo-video {
+  display: block;
+  width: 100%;
+  padding: 30px 0;
+}
+
+#installation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#installation h3 {
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+.installation {
+  text-align: center;
+  color: #eee;
+  padding: 30px;
+  margin: 50px 150px;
+  align-items: center;
+}
+
+.installation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 30px;
+}
+
+.installation-card {
+  background: #eee;
+  border: 1px solid var(--second-text-color);
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  transition: transform 0.3s;
+  text-align: left;
+  color: var(--second-text-color);
+}
+
+.installation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.installation-card h4 {
+  margin-bottom: 15px;
+  color: var(--second-text-color);
+}
+
+h3 {
+
+  color: var(--second-text-color);
+}
+
+.contact h4 {
+  text-align: center;
+  
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .header-section {
+    padding: 10px 120px;
+  }
+
+  .header-nav {
+    left: 720px;
+  }
+
+  .hero-section h3 {
+    font-size: 25px;
+  }
+
+  .feature-grid-container {
+    padding: 30px 0;
+    gap: 20px;
+  }
+
+  .feature-img {
+    flex: 2 1 50%;
+    max-width: 1000px;
+  }
+
+  .installation {
+    margin: 50px 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-section {
+    padding: 10px 100px;
+  }
+
+  .header-nav {
+    left: 630px;
+  }
+
+  .fa-home {
+    bottom: 5px;
+    right: 8px;
+    font-size: 1rem;
+  }
+
+  .hero-section h3 {
+    font-size: 20px;
+  }
+
+  .feature-img {
+    flex: 2 1 40%;
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fa-bars,
+  .fa-close {
+    visibility: visible;
+  }
+
+  .fa-home {
+    bottom: 3px;
+    font-size: 0.8rem;
+  }
+
+  .hero-section h3 {
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+  }
+  .hero-section p {
+    font-size: 14px;
+  }
+
+  .feature-grid-container {
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 30px;
+  }
+
+  .feature-img {
+    flex: 2 1 40%;
+    max-width: 600px;
+  }
+
+  .installation {
+    margin: 50px 70px;
+  }
+}

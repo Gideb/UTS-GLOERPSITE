@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .marquee-parent {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 30px;
+      }
+      .marquee-child {
+        display: flex;
+        width: 100%;
+        /* width of your text div */
+        height: auto;
+        padding: 10px;
+        /* height of your text div */
+        
+        animation: marquee 15s linear infinite; /* change 5s value to your desired speed */
+      }
+      .marquee-child:hover {
+        animation-play-state: paused;
+        cursor: pointer;
+      }
+      @keyframes marquee {
+        0% {
+          left: 100%;
+        }
+        100% {
+          left: -147px; /* same as your text width */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--  <div class="marquee-content">
+      <div class="marquee__content">
+        <img src="../GloERP/images/marquee/greenhost.png" alt="Company 1" />
+
+        <img src="../GloERP/images/marquee/hcl.png" alt="Company 2" />
+
+        <img src="../GloERP/images/marquee/ibmmedia.png" alt="Company 3" />
+
+        <img src="../GloERP/images/marquee/ingram.png" alt="Company 4" />
+
+        <img src="../GloERP/images/marquee/omnib.png" alt="Company 5" />
+
+        <img src="../GloERP/images/marquee/theseed.png" alt="Company 6" />
+
+        <img src="../GloERP/images/marquee/triplecons.png" alt="Company 7" />
+      </div>
+      <div class="marquee__content">
+        <img src="../GloERP/images/marquee/greenhost.png" alt="Company 1" />
+
+        <img src="../GloERP/images/marquee/hcl.png" alt="Company 2" />
+
+        <img src="../GloERP/images/marquee/ibmmedia.png" alt="Company 3" />
+
+        <img src="../GloERP/images/marquee/ingram.png" alt="Company 4" />
+
+        <img src="../GloERP/images/marquee/omnib.png" alt="Company 5" />
+
+        <img src="../GloERP/images/marquee/theseed.png" alt="Company 6" />
+
+        <img src="../GloERP/images/marquee/triplecons.png" alt="Company 7" />
+      </div>
+    </div> -->
+    <div class="marquee-parent">
+      <div class="marquee-child">
+        <img src="" alt="ere">
+        <img src="" alt="HY">
+        <img src="" alt="FG">
+        <img src="" alt="mt">
+        <img src="" alt="dfd">
+    </div>
+    </div>
+  </body>
+</html>

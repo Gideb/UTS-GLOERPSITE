@@ -1,0 +1,186 @@
+:root {
+  --pos-color: #020884;
+  --hospital-color: #090331;
+  --ecommerce-color: #b88655;
+  --hotel-color: #842d02;
+  --hrms-color: #e17616;
+  --school-color: #fb0a2b;
+  --food-color: #e17616;
+  --pharmacy-color: #560b9c;
+  --second-text-color: #161616;
+  --secondary-color: #06475f;
+  --laundry-color: #126103;
+}
+
+/* about-section banners */
+
+.about-section.pos {
+  background: url(../images/glo-products/banners/pos2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--pos-color);
+}
+.about-section.hms {
+  background: url(../images/glo-products/banners/hospital.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.about-section.ecommerce {
+  background: url(../images/glo-products/banners/ecommerce.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--ecommerce-color);
+}
+.about-section.school {
+  background: url(../images/glo-products/banners/student2.jpg);
+  background-size: cover;
+  color: var(--school-color);
+}
+.about-section.pharmacy {
+  background: url(../images/glo-products/banners/pharmacy.jpg);
+  background-size: cover;
+  color: var(--pharmacy-color);
+}
+.about-section.hrms {
+  background: url(../images/glo-products/banners/hrms.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--hrms-color);
+}
+.about-section.hotel {
+  background: url(../images/glo-products/banners/hotel1.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.about-section.food {
+  background: url(../images/glo-products/banners/restaurant.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--food-color);
+}
+
+.about-section.laundry {
+  background: url(../images/glo-products/banners/laundromat.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--laundry-color);
+}
+
+/* colors for feature text header*/
+.feature-text.pos strong {
+  color: var(--pos-color);
+}
+.feature-text.hms strong {
+  color: var(--hospital-color);
+}
+.feature-text.ecommerce strong {
+  color: var(--ecommerce-color);
+}
+.feature-text.school strong {
+  color: var(--school-color);
+}
+.feature-text.pharmacy strong {
+  color: var(--pharmacy-color);
+}
+.feature-text.hrms strong {
+  color: var(--hrms-color);
+}
+.feature-text.hotel strong {
+  color: var(--hotel-color);
+}
+.feature-text.food strong {
+  color: var(--food-color);
+}
+.feature-text.laundry strong {
+  color: var(--laundry-color);
+}
+
+/* installation colors */
+.installation.pos {
+  background-color: var(--pos-color);
+}
+.installation.hms {
+  background-color: var(--hospital-color);
+}
+.installation.ecommerce {
+  background-color: var(--ecommerce-color);
+}
+.installation.school {
+  background-color: var(--school-color);
+}
+.installation.pharmacy {
+  background-color: var(--pharmacy-color);
+}
+.installation.hrms {
+  background-color: var(--hrms-color);
+}
+.installation.hotel {
+  background-color: var(--hotel-color);
+}
+.installation.food {
+  background-color: var(--food-color);
+}
+.installation.laundry {
+  background-color: var(--laundry-color);
+}
+
+:is(.installation-card.online, .installation-card.offline) .ecommerce {
+  color: var(--ecommerce-color);
+}
+:is(.installation-card.online, .installation-card.offline) .food {
+  color: var(--food-color);
+}
+:is(.installation-card.online, .installation-card.offline) .pos {
+  color: var(--pos-color);
+}
+:is(.installation-card.online, .installation-card.offline) .hms {
+  color: var(--hms-color);
+}
+:is(.installation-card.online, .installation-card.offline) .hotel {
+  color: var(--hotel-color);
+}
+:is(.installation-card.online, .installation-card.offline) .hrms {
+  color: var(--hrms-color);
+}
+:is(.installation-card.online, .installation-card.offline) .pharmacy {
+  color: var(--pharmacy-color);
+}
+:is(.installation-card.online, .installation-card.offline) .school {
+  color: var(--school-color);
+}
+:is(.installation-card.online, .installation-card.offline) .laundry {
+  color: var(--laundry-color);
+}
+
+/* read  more buttons */
+/* .btn-product.pos {
+  background-color: var(--pos-color);
+}
+.btn-product.hms {
+  background-color: var(--hospital-color);
+}
+.btn-product.ecommerce {
+  background-color: var(--ecommerce-color);
+}
+.btn-product.school {
+  background-color: var(--school-color);
+}
+.btn-product.pharmacy {
+  background-color: var(--pharmacy-color);
+}
+.btn-product.hrms {
+  background-color: var(--hrms-color);
+}
+.btn-product.hotel {
+  background-color: var(--hotel-color);
+}
+.btn-product.food {
+  background-color: var(--food-color);
+}
+.btn-product.pos {
+  background-color: var(--pos-color);
+}
+.btn-product.laundry {
+  background-color: var(--laundry-color);
+}
+ */
