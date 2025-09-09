@@ -43,7 +43,7 @@
       <div class="feature-grid-container">
         <div class="feature-img">
           <img
-            src="../images/glo-products/glo-ecommerce.jpg"
+            src="../images/glo-products/laundry.jpg"
             alt="glo POS with laundry Management System logo" />
         </div>
         <div class="feature-text laundry">
