@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GLO-ERP | Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/demo.css" />
+
+</head>
+
+<body>
+  <!--  <header class="header-section">
+      
+      <div class="menulogo">
+        <div class="logox">
+          <a href="index.html">
+            <img src="images/glo-logo.png" alt="glo-erp logo" />
+          </a>
+        </div>
+        <div class="menux sidenav">
+          <nav>
+            <ul>
+              <li><a class="fa-solid fa-home" href="#"></a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+            </ul>
+            <span
+              class="fa-solid fa-close closebtn"
+              onclick="closebtn()"
+            ></span>
+          </nav>
+        </div>
+        <span class="fa-solid fa-bars" onclick="sidenavbtn()"></span>
+      </div>
+    </header> -->
+
+  <?php include './includes/header.php' ?>
+
+
+  <div class="contact-header">
+    <h2> Request A Demo</h2>
+
+  </div>
+
+  <div class="contact-container">
+    <legend>
+      Use the form below to request a personalized demo of any GLO-ERP product. We’re here to help with all
+      questions and inquiries.
+    </legend>
+    <!--  <div class="contact-info">
+      <h2>Reach Us</h2>
+      <ul>
+        <li>
+          <span class="icon fa-regular fa-envelope"></span>
+          <strong>Email:</strong><br />
+          <a href="mailto:info@utsdevelopers.com">info@utsdevelopers.com</a><br />
+          <a href="mailto:askus@utsdevelopers.com">askus@utsdevelopers.com</a>
+        </li>
+        <li>
+          <span class="icon fa-solid fa-phone"></span>
+          <strong>Phone:</strong><br />
+          <a href="tel:+233302953111">+233 30 295 3111</a><br />
+          <a href="tel:+233532759520">+233 53 275 9520</a>
+        </li>
+        <li>
+          <span class="icon fa-regular fa-address-book"></span>
+          <strong>Address:</strong><br />
+          <b>Development Center:</b>
+          <p>Kpong, Eastern Region</p>
+          <b>Business Team:</b>
+          <p>Tesano, Accra</p>
+        </li>
+
+        <br />
+        <li>
+          <span class="fa-regular fa-clock"></span>
+          <strong>Office Hours:</strong> <br />
+          <p>Mon–Fri, 09:00am–05:00pm GMT</p>
+        </li>
+      </ul>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8115861454735!2d0.05801457599217399!3d6.155983827322975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1020a7da30768b3b%3A0x54dc43e3fb0d3e1f!2sUTS%20Developers!5e0!3m2!1sen!2sgh!4v1755770391010!5m2!1sen!2sgh"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> -->
+
+
+    <div class="form-grid">
+      <div class="form-image">
+        <img src="../GloERP/images/contact2.jpg" alt="image of a customer support agent">
+      </div>
+      <form id="contactForm">
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Full Name"
+          required />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Email Address"
+          required />
+
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Phone Number"
+          required />
+
+        <input
+          type="text"
+          id="company-name"
+          placeholder="Company Name"
+          required />
+        <input
+          type="text"
+          id="company-location"
+          placeholder="Company Location"
+          required />
+
+        <!--    <label for="purpose">Purpose:</label>
+
+      <select 
+      id="purpose" 
+      name="purpose" 
+      required>
+
+        <option value="">---</option>
+        <option value="info">Product Information</option>
+        <option value="demo">Request a Demo</option>
+        <option value="support">Support</option>
+        <option value="other">Other</option>
+
+      </select> -->
+
+        <label for="product">Select Product:</label>
+
+        <select
+          name="product"
+          id="product"
+          class="select-product">
+
+          <option value="">---</option>
+          <option value="food">Food Ordering Management System</option>
+          <option value="hospital">Hospital/Clinic Management System</option>
+          <option value="hotel">Hotel Management System</option>
+          <option value="hrms">Human Resource Management System</option>
+          <option value="laundry">Laundry Management System</option>
+          <option value="ecommerce">Multipurpose Ecommerce System</option>
+          <option value="pharmacy">Pharmacy Management System</option>
+          <option value="pos">PoS with Inventory Management System</option>
+          <option value="school">School Management System</option>
+
+        </select>
+
+        <textarea
+          id="message"
+          placeholder="Additional Information"></textarea>
+
+        <button type="submit">Submit</button>
+
+      </form>
+    </div>
+
+
+  </div>
+
+
+  <?php include './includes/footer.php' ?>
+  <!--   <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-column col-1">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                class="glo-footer-logo"
+                src="../images/glo-logo-faded.png"
+                alt="gloErp logo faded"
+            /></a>
+          </div>
+          <div class="text">
+            <p>
+              We are the leading and most reliable Software development company
+              in ghana. For over a decade, we have been providing bespoke
+              Software solutions to clients across africa and the globe. We
+              believe in transforming ideas into successful ventures with the
+              help of innovative technology solutions.
+            </p>
+          </div>
+
+          <div>
+            <ul class="social-box">
+              <li>
+                <a
+                  href="https://web.facebook.com/Utsafricadeveloper"
+                  target="_blank"
+                  class="fa fa-facebook"
+                  rel="noopener"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/utsdevelopers"
+                  class="fa fa-youtube"
+                  rel="noopener"
+                ></a>
+              </li>
+              <li><a href="#" class="fa fa-twitter" rel="noopener"></a></li>
+              <li>
+                <a
+                  href="https://www.utsdevelopers.com"
+                  class="fa fa-google"
+                  rel="noopener"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-column col-2">
+          <h5>Quick Links</h5>
+          <div class="dash"></div>
+          <nav>
+            <ul class="list-link">
+              <li>
+                <a href="https://www.utsdevelopers.com/about">About UTS</a>
+              </li>
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="../products.html">Products</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+              <li><a href="../faq.html">FAQs</a></li>
+              <li>
+                <a href="https://utsdevelopers.com/clientsarea/login"
+                  >Client &amp; Support Portal</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-column col-3">
+          <h5>Contact Us</h5>
+          <div class="dash"></div>
+          <nav>
+            <ul>
+              <li>
+                <span class="icon fa-regular fa-address-book"></span>
+                <strong>Address</strong> <br />
+                <b>Development Center :</b>
+                <p>Kpong, Eastern Region.</p>
+                <b>Business Team :</b>
+                <p>Tesano Accra</p>
+              </li>
+              <li>
+                <span class="icon fa-solid fa-phone"></span>
+
+                <strong>Phone</strong> <br />
+                <a href="tel:+233 302 953111">+233 30 295 3111</a><br />
+                <a href="tel:+233 53 2759520">+233 53 275 9520</a>
+              </li>
+              <li>
+                <span class="icon fa-regular fa-envelope"></span>
+                <strong>E-Mail</strong> <br />
+                <a href="mailto:info@utsdevelopers.com"
+                  >info@utsdevelopers.com</a
+                >
+                <br />
+                <a href="askus@utsdevelopers.com">askus@utsdevelopers.com</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr />
+
+      <div class="footer-bottom">
+        <div class="copyright">Powered By UTS Developers Limited.</div>
+
+        <div>
+          <ul class="copyright-nav">
+            <li><a href="#">Join our Team</a></li>
+            <li>
+              <a href="https://www.utsdevelopers.com/services">Services</a>
+            </li>
+            <li><a href="#">Client Portal</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer> -->
+
+  <script src="./js/demo.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

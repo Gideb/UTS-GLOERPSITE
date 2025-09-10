@@ -227,8 +227,6 @@
       </div>
     </section>
 
-
-
     <!--  <section id="products">
         <div class="products-section-header">
           <h3>Our Products</h3>
@@ -397,8 +395,8 @@
           <div class="company-logo">
             <img src="../GloERP/images/marquee/triplecons.png" alt="Company 7" />
           </div>
-        </div>
 
+        </div>
       </div>
     </section>
 

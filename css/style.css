@@ -35,7 +35,7 @@ header {
 
 .logo {
   /*  font-size: 1.8rem;
-  font-weight: 600; */
+  font-weight: 600; */ /* gil */
   width: 30%;
 }
 
@@ -167,7 +167,7 @@ header nav ul li a:hover {
 
 /* About Section */
 #about {
-  background-image: url("../images/aboutus.jpg");
+  background-image: url("../images/about-us.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -283,7 +283,8 @@ header nav ul li a:hover {
 }
 
 /* Contact & Demo Section */
-#contact-demo {
+/* commented by gil */
+/* #contact-demo {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -326,7 +327,7 @@ header nav ul li a:hover {
 #demo button.btn {
   border: none;
   cursor: pointer;
-}
+} */
 
 /* Footer */
 footer {
