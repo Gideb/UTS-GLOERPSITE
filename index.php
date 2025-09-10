@@ -14,11 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../GloERP/images/favicon.png" type="image/png">
+
 
 </head>
 
 <body>
-
+    <!-- commented out by Gilbert -->
     <!-- Header Section -->
     <!--     <header>
         <div class="logo">GLO-ERP</div>
@@ -71,15 +73,18 @@
                 </div>
             </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        //added events in js and took away onclicks-by gil
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+        <!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
     </section>
 
     <!-- About GLO-ERP Section -->
     <!-- About GLO-ERP Section -->
     <section id="about">
         <h2>About GLO-ERP</h2>
-        <p>GLO-ERP specializes in tailored enterprise resource planning solutions for a wide range of industries. From streamlining **hospital management** and modernizing **restaurant operations** to optimizing **school administration** and **human resources**, our software is designed to meet your specific needs. We help businesses grow by providing powerful tools that simplify complex tasks, improve efficiency, and foster long-term success.</p>
+        <p>GLO-ERP specializes in tailored enterprise resource planning solutions for a wide range of industries. From streamlining <b>hospital management</b> and modernizing <b>restaurant operations</b> to optimizing <b>school administration</b> and <b>human resources</b>, our software is designed to meet your specific needs. We help businesses grow by providing powerful tools that simplify complex tasks, improve efficiency, and foster long-term success.</p>
     </section>
 
     <!-- Product Showcase Section -->
@@ -107,7 +112,7 @@
                 <p>A comprehensive point-of-sale solution with real-time inventory tracking. Offering you cutting-edge solutions to help you drive better sales.</p>
             </div>
             <div class="product-card">
-                <img src="https://placehold.co/100x100/B2D8D8/ffffff?text=Laundry" alt="Laundry Management System Icon">
+                <img src="../GloERP/images/glo-products/laundry.jpg" alt="Laundry Management System Icon">
                 <h3>Laundry Management System</h3>
                 <p>Automate your laundry business operations, from order tracking and billing to delivery and customer management. Keep your business running smoothly.</p>
             </div>
