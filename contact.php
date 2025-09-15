@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="icon" href="../GloERP/images/favicon.png" type="image/png">
 
 </head>
 
 <body>
     <!-- header -->
-    <?php include './includes/header.php' ?>
+    <?php include './includes/header.php'; ?>
 
     <!-- contact  details-->
     <main>
@@ -35,53 +36,56 @@
                             For general enquiries, please get in touch with our team at <br> <a href="mailto:askus@utsafrica.com">askus@utsafrica.com </a>, or call on <a href="tel:+233302953111">+233 302 953 111</a> or <a href="tel:+233557407579">+233 55 740 4579</a>
                         </p>
                     </div>
-                    <div class="contact-main-info">
-                        <div class="info col-1">
-                            <span class="fa-solid fa-map"></span>
+                    <section id="main-info">
+                        <div class="contact-main-info">
+                            <div class="info col-1">
+                                <span class="fa-regular fa-map"></span>
 
-                            <h4>Address</h4>
+                                <h4>Address</h4>
 
-                            <p><b>Development Center: </b> Kpong - Akosombo</p>
+                                <p><b>Development Center: </b> Kpong - Akosombo</p>
 
-                            <p><b>Business Center: </b> Tesano - Accra</p>
-
-
-                            <br><br>
-                            <span class="fa-solid fa-location"></span>
-
-                            <h4>GPS Address</h4>
-
-                            <p>EL-0417-4521</p>
+                                <p><b>Business Center: </b> Tesano - Accra</p>
 
 
+                                <br><br>
+                                <span class="fa-solid fa-location"></span>
+
+                                <h4>GPS Address</h4>
+
+                                <p>EL-0417-4521</p>
+
+
+                            </div>
+
+
+                            <div class="info col-2">
+                                <span class="fa-regular fa-address-book"></span>
+
+                                <h4>Phone</h4>
+
+                                <a href="tel:+233302953111">+233 302 953 111</a>
+                                <br>
+                                <a href="tel:+233532759520">+233 (0) 53 275 9520</a>
+                                <p>(Sales & Support - Ghana)</p>
+                                <br>
+                                <a href="tel:+27677734940">+27 (0) 67 773 4940</a>
+                                <p>(Sales & Support - South Africa)</p>
+
+                            </div>
+
+                            <div class="info col-3">
+                                <span class="fa-regular fa-envelope"></span>
+
+                                <h4>E-Mail</h4>
+                                <a href="mailto:askus@utsafrica.com">askus@utsafrica.com </a>
+                                <br>
+                                <a href="mailto:support@utsafrica.com">support@utsafrica.com </a>
+
+                            </div>
                         </div>
+                    </section>
 
-
-                        <div class="info col-2">
-                            <span class="fa-solid fa-phone"></span>
-
-                            <h4>Phone</h4>
-
-                            <a href="tel:+233302953111">+233 302 953 111</a>
-                            <br>
-                            <a href="tel:+233532759520">+233 (0) 53 275 9520</a>
-                            <p>(Sales & Support - Ghana)</p>
-                            <br>
-                            <a href="tel:+27677734940">+27 (0) 67 773 4940</a>
-                            <p>(Sales & Support - South Africa)</p>
-
-                        </div>
-
-                        <div class="info col-3">
-                            <span class="fa-solid fa-envelope"></span>
-
-                            <h4>E-Mail</h4>
-                            <a href="mailto:askus@utsafrica.com">askus@utsafrica.com </a>
-                            <br>
-                            <a href="mailto:support@utsafrica.com">support@utsafrica.com </a>
-
-                        </div>
-                    </div>
 
                 </div>
             </div>
@@ -125,8 +129,6 @@
                     <div class="maps">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8115861454735!2d0.05801457599217399!3d6.155983827322975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1020a7da30768b3b%3A0x54dc43e3fb0d3e1f!2sUTS%20Developers!5e0!3m2!1sen!2sgh!4v1755770391010!5m2!1sen!2sgh"
-                            width="600"
-                            height="600"
                             style="border: 0"
                             allowfullscreen
                             loading="lazy"

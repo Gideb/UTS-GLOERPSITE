@@ -9,15 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="../GloERP/css/style.css" />
+  <link rel="stylesheet" href="../GloERP/css/style.css">
   <link rel="stylesheet" href="../GloERP/css/products.css" />
   <link rel="stylesheet" href="../GloERP/css/product-colors.css" />
+  <link rel="icon" href="../GloERP/images/favicon.png" type="image/png">
 
 </head>
 
 <body>
   <!-- header section -->
-  <?php include './includes/header.php' ?>
+  <?php include './includes/header.php'; ?>
 
 
   <section id="hero-section">
@@ -27,7 +28,7 @@
         Streamline your business processes with GLO-ERP's integrated
         solutions.
       </p>
-      <a href="#product-showcase" class="btn ">Explore Products</a>
+      <!-- <a href="#product-showcase" class="btn ">Explore Products</a> -->
     </div>
   </section>
 
@@ -71,69 +72,6 @@
       </div>
     </section> -->
   <main>
-    <section id="benefits">
-      <div class="benefits">
-        <h2>Why Choose GLO-ERP?</h2>
-        <ul class="benefits-grid">
-          <li>
-            <strong><i class="fas fa-layer-group"></i> Comprehensive solutions for
-              every business need</strong>
-            <ul>
-              <li>All-in-one platform for multiple industries</li>
-              <li>Integrated modules for seamless workflow</li>
-              <li>Scalable for small to large organizations</li>
-            </ul>
-          </li>
-
-          <!--   <li class="colored">
-            <strong
-              ><i class="fas fa-users"></i> Easy integration and user-friendly
-              interface</strong
-            >
-            <ul>
-              <li>Quick setup and onboarding</li>
-              <li>Intuitive dashboard and navigation</li>
-              <li>Minimal training required for staff</li>
-            </ul>
-          </li> -->
-
-          <!--   <li>
-            <strong
-              ><i class="fas fa-cogs"></i> Customizable modules for different
-              industries</strong
-            >
-            <ul>
-              <li>
-                Tailored features for retail, healthcare, hospitality, and more
-              </li>
-              <li>Flexible configuration options</li>
-              <li>Industry-specific reporting tools</li>
-            </ul>
-          </li> -->
-
-          <li class="colored">
-            <strong><i class="fas fa-headset"></i> Reliable support and regular
-              updates</strong>
-            <ul>
-              <li>Dedicated customer support team</li>
-              <li>Continuous product improvements</li>
-              <li>Access to knowledge base and resources</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong><i class="fas fa-shield-alt"></i> Secure and scalable
-              platform</strong>
-            <ul>
-              <li>Advanced data protection protocols</li>
-              <li>Cloud and on-premise deployment options</li>
-              <li>Handles growth and increased demand</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-
 
 
     <section id="product-showcase">
@@ -371,6 +309,73 @@
         </div>
       </section> -->
 
+
+    <section id="benefits">
+      <div class="benefits">
+        <h2>Why Choose GLO-ERP?</h2>
+
+        <div class="benefits-grid-container">
+          <div class="benefits-grid">
+            <strong><i class="fas fa-layer-group"></i> Comprehensive solutions for
+              every business need</strong>
+            <ul>
+              <li>All-in-one platform for multiple industries</li>
+              <li>Integrated modules for seamless workflow</li>
+              <li>Scalable for small to large organizations</li>
+            </ul>
+          </div>
+
+          <!--   <li class="colored">
+            <strong
+              ><i class="fas fa-users"></i> Easy integration and user-friendly
+              interface</strong
+            >
+            <ul>
+              <li>Quick setup and onboarding</li>
+              <li>Intuitive dashboard and navigation</li>
+              <li>Minimal training required for staff</li>
+            </ul>
+          </li> -->
+
+          <!--   <li>
+            <strong
+              ><i class="fas fa-cogs"></i> Customizable modules for different
+              industries</strong
+            >
+            <ul>
+              <li>
+                Tailored features for retail, healthcare, hospitality, and more
+              </li>
+              <li>Flexible configuration options</li>
+              <li>Industry-specific reporting tools</li>
+            </ul>
+          </li> -->
+
+          <div class="benefits-grid">
+            <strong><i class="fas fa-headset"></i> Reliable support and regular
+              updates</strong>
+            <ul>
+              <li>Dedicated customer support team</li>
+              <li>Continuous product improvements</li>
+              <li>Access to knowledge base and resources</li>
+            </ul>
+          </div>
+
+          <div class="benefits-grid">
+            <strong><i class="fas fa-shield-alt"></i> Secure and scalable
+              platform</strong>
+            <ul>
+              <li>Advanced data protection protocols</li>
+              <li>Cloud and on-premise deployment options</li>
+              <li>Handles growth and increased demand</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
     <section id="customers">
       <div class="company-logo-container marquee">
         <div class="marquee-content">
@@ -538,9 +543,11 @@
       </div>
     </footer>
  -->
-  <?php include './includes/footer.php'; ?>
+  <!-- Footer -->
+  <?php include './includes/footer.php' ?>
 
-  <script src="./js/script.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>

@@ -6,15 +6,15 @@
 }
 
 .contact-header {
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/contacts.jpg);
   background-size: cover;
   background-position: center;
   padding: 70px 0;
-  color: #fff;
+  color: #f7f7f7;
 }
 
 .contact h2 {
-  color: #fff;
+  color: #f7f7f7;
 }
 
 .contact-main-head {
@@ -28,6 +28,11 @@
 .contact-main-head a {
   color: #09769f;
   text-decoration: none;
+}
+
+#main-info{
+  background-color: #f7f7f7;
+
 }
 
 .contact-main-info {
@@ -45,11 +50,11 @@
 .info {
   margin-top: 20px;
   padding: 100px 30px 200px 30px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: #000;
   transition: transform 0.3s;
   text-align: left;
-  box-shadow: 2px 2px 2px rgba(29, 29, 29, 0.356);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 .info a {
@@ -70,7 +75,10 @@
   transform: translateY(-8px);
 }
 
-.fa-solid {
+.fa-map,
+.fa-location,
+.fa-address-book,
+.fa-envelope {
   color: #09769f;
   font-size: 2.5rem;
   position: relative;
@@ -93,10 +101,25 @@
 
 .forms-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 50px;
   margin-top: 50px;
 }
+
+.maps {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .contact-form {
   display: flex;
@@ -129,4 +152,8 @@ label {
 
 .btn-submit:hover {
   background: #06526d;
+}
+
+@media (max-width: 900px) {
+
 }

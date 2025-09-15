@@ -11,42 +11,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/demo.css" />
+  <link rel="icon" href="../GloERP/images/favicon.png" type="image/png">
 
 </head>
 
 <body>
-  <!--  <header class="header-section">
-      
-      <div class="menulogo">
-        <div class="logox">
-          <a href="index.html">
-            <img src="images/glo-logo.png" alt="glo-erp logo" />
-          </a>
-        </div>
-        <div class="menux sidenav">
-          <nav>
-            <ul>
-              <li><a class="fa-solid fa-home" href="#"></a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="faq.html">FAQs</a></li>
-            </ul>
-            <span
-              class="fa-solid fa-close closebtn"
-              onclick="closebtn()"
-            ></span>
-          </nav>
-        </div>
-        <span class="fa-solid fa-bars" onclick="sidenavbtn()"></span>
-      </div>
-    </header> -->
 
-  <?php include './includes/header.php' ?>
+  <?php include './includes/header.php'; ?>
 
+  <section>
+    <div class="contact-header">
+      <h2> Request A Demo</h2>
+    </div>
+  </section>
 
-  <div class="contact-header">
-    <h2> Request A Demo</h2>
-
-  </div>
 
   <div class="contact-container">
     <legend>

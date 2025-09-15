@@ -37,13 +37,18 @@
           Enhance learning, simplify administration, and connect your school
           community!
         </p>
-        <img
-          src="../images/glo-products/banners/gloposshot.png"
-          alt="glo school management system screenshot" />
+        <div class="hero-image">
+          <img
+            src="../images/glo-products/banners/gloposshot.png"
+            alt="glo school management system screenshot" />
+        </div>
+
       </div>
     </section>
 
     <section id="features">
+      <h3>ABOUT GLO School Management System</h3>
+
       <div class="feature-grid-container">
         <div class="feature-img">
           <img
@@ -51,7 +56,7 @@
             alt="glo POS with inventory management system logo" />
         </div>
         <div class="feature-text school">
-          <h3>ABOUT GLO School Management System</h3>
+
           <p>
             <strong>GLO School Management System</strong> is a comprehensive,
             web-based platform designed to streamline school operations and
@@ -94,7 +99,10 @@
       </div>
     </section>
 
-    <section id="installation">
+    <?php include '../includes/installation.php' ?>
+    <?php include '../includes/gotoContDemo.php' ?>
+
+    <!-- <section id="installation">
       <h3>Installation Type</h3>
       <div class="installation school">
         <p>
@@ -117,9 +125,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="contact">
+    <!-- <section id="contact">
       <div class="contact">
         <h4>
           Do you have any questions or inquiries? Feel free to reach out to us!
@@ -130,7 +138,7 @@
         </div>
       </div>
 
-    </section>
+    </section> -->
   </main>
 
   <!-- Footer -->

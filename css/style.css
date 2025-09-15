@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   line-height: 1.6;
   color: #333;
   background-color: #ffffff;
@@ -16,7 +17,7 @@ h3 {
 }
 
 section {
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
@@ -63,6 +64,15 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #f0f0f0;
+}
+
+.fa-bars,
+.fa-house,
+.fa-laptop,
+.fa-address-card,
+.fa-file-video,
+.fa-phone {
+  display: none;
 }
 
 /* Carousel Section */
@@ -167,13 +177,14 @@ header nav ul li a:hover {
 
 /* About Section */
 #about {
-  background-image: url("../images/about-us.jpg");
+  /*  background-image: url("../images/about-us.jpg");
   background-size: cover;
-  background-position: center;
-  color: #ffffff;
+  background-position: center; */
+  color: #000;
+  background-color: #f7f7f7;
   position: relative;
-  height: 40vh;
-  padding-top: 130px;
+  height: 20vh;
+  padding-top: 50px;
 }
 
 #about::before {
@@ -183,14 +194,14 @@ header nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(121, 120, 120, 0.103);
 }
 
 #about h2,
 #about p {
   position: relative;
   z-index: 2;
-  color: #ffffff;
+  color: #3b3b3b;
 }
 #about h2 {
   margin-bottom: 20px;
@@ -198,8 +209,9 @@ header nav ul li a:hover {
 
 #about p {
   max-width: 1200px;
+  width: 70%;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
   text-align: justify;
 }
@@ -218,7 +230,7 @@ header nav ul li a:hover {
 .testimonial-card {
   background-color: #f7f7f7;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   text-align: left;
@@ -338,19 +350,57 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    text-align: center;
+@media (max-width: 900px) {
+  .logo img {
+    width: 30%;
+  }
+
+  .fa-bars {
+    font-size: 1.4rem;
+    display: block;
+  }
+
+  .fa-house,
+  .fa-address-card,
+  .fa-laptop,
+  .fa-file-video,
+  .fa-phone {
+    display: block;
+    font-size: 1rem;
+    padding-right: 8px;
+    margin-top: 4px;
+  }
+
+  .sidenav {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 100vh;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.8s ease;
+    background-color: #064863;
+    z-index: 1000;
+  }
+
+  .sidenav.open {
+    width: 40vw;
   }
 
   header nav ul {
     flex-direction: column;
-    margin-top: 10px;
+    margin: 70px 0 0 25%;
+    text-align: left;
   }
 
   header nav ul li {
     margin: 5px 0;
+    padding: 5px 0;
+  }
+
+  header nav ul li a {
+    display: flex;
   }
 
   .carousel-text h1 {
@@ -365,5 +415,39 @@ footer {
   .next {
     font-size: 16px;
     padding: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidenav.open {
+    width: 50vw;
+  }
+  .sidenav {
+    top: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidenav.open {
+    width: 70vw;
+  }
+  .sidenav {
+    top: 85px;
+  }
+
+  .logo img {
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .sidenav.open {
+    width: 100vw;
+  }
+  .sidenav {
+    top: 60px;
+  }
+
+  .logo img {
+    width: 40%;
   }
 }

@@ -33,9 +33,12 @@
           Automate your laundry business operations, from order tracking and billing to delivery and customer management.
         </h3>
         <p>Reach more customers and boost your sales!</p>
-        <img
-          src="../images/glo-products/banners/gloposshot.png"
-          alt="glo ecommerce system screenshot" />
+
+        <div class="hero-image">
+          <img
+            src="../images/glo-products/banners/gloposshot.png"
+            alt="glo ecommerce system screenshot" />
+        </div>
       </div>
     </section>
 
@@ -91,7 +94,10 @@
       </div>
     </section>
 
-    <section id="installation">
+    <?php include '../includes/installation.php' ?>
+    <?php include '../includes/gotoContDemo.php' ?>
+
+    <!-- <section id="installation">
       <h3>Installation Type</h3>
       <div class="installation laundry">
         <p>
@@ -114,9 +120,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="contact">
+    <!--   <section id="contact">
       <div class="contact">
         <h4>
           Do you have any questions or inquiries? Feel free to reach out to us!
@@ -126,7 +132,7 @@
           <a class="btn" href="contact.php">Contact Us</a>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <!-- Footer -->

@@ -1,3 +1,13 @@
+//added by gil
+/* sidenav */
+
+const hamburger = document.getElementById("bars");
+const sidenav = document.querySelector(".sidenav");
+
+hamburger.addEventListener("click", () => {
+  sidenav.classList.toggle("open");
+});
+
 let slideIndex = 1;
 showSlides(slideIndex);
 

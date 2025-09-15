@@ -3,14 +3,10 @@
   --btn-bg: #06597a;
   --primary-color: #cacaca;
 }
+
 body {
   transition: all 0.5s ease;
   color: var(--text-color);
-}
-
-.fa-bars,
-.fa-close {
-  display: none;
 }
 
 .contact-header {
@@ -26,8 +22,9 @@ body {
   color: white;
   margin-bottom: 10px;
 }
+
 legend {
-  max-width: 60%;
+  max-width: 1000px;
   margin: auto;
   text-align: center;
   font-size: 1.3rem;
@@ -45,7 +42,7 @@ legend {
 
 .form-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin: 50px auto;
 }
@@ -157,7 +154,7 @@ form button:hover {
 
 /* Responsiveness */
 
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
   .fa-bars,
   .fa-close {
     display: none;
@@ -180,59 +177,13 @@ form button:hover {
     max-width: 950px;
     padding: 30px;
   }
-}
-
-@media (max-width: 768px) {
-  .fa-home {
-    bottom: 5px;
-    right: 8px;
-    font-size: 1.1rem;
-  }
-
-  .contact-container {
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    max-width: 700px;
-  }
-}
+} */
 
 @media (max-width: 425px) {
-  .top-message {
-    padding: 10px 20px;
-    font-size: 0.7rem;
-  }
-
-  .fa-home {
-    font-size: 0.7rem;
-    bottom: 2px;
-    right: 3px;
-  }
-
-  .contact-header {
-    max-width: 75%;
-    margin: 60px auto;
-  }
-
-  .contact-header h2 {
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-  }
-
-  .contact-header p {
-    text-align: justify;
+  legend {
     font-size: 0.9rem;
   }
-
-  .contact-container {
-    max-width: 390px;
-    margin: 100px auto;
-    grid-template-columns: 1fr;
-    padding: 20px;
-    border-radius: 5px;
-  }
-
-  .contact-info h2 {
-    margin-bottom: 40px;
-    text-align: center;
+  form {
+    width: 100%;
   }
 }

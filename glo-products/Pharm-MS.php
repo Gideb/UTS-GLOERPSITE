@@ -35,9 +35,12 @@
           prescriptions, and customer management.
         </h3>
         <p>Deliver better service and streamline your pharmacy operations!</p>
-        <img
-          src="../images/glo-products/banners/gloposshot.png"
-          alt="glo pharmacy management system screenshot" />
+        <div class="hero-image">
+          <img
+            src="../images/glo-products/banners/gloposshot.png"
+            alt="glo pharmacy management system screenshot" />
+        </div>
+
       </div>
     </section>
 
@@ -93,7 +96,10 @@
       </div>
     </section>
 
-    <section id="installation">
+    <?php include '../includes/installation.php' ?>
+    <?php include '../includes/gotoContDemo.php' ?>
+
+    <!-- <section id="installation">
       <h3>Installation Type</h3>
       <div class="installation pharmacy">
         <p>
@@ -117,9 +123,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="contact">
+    <!-- <section id="contact">
       <div class="contact">
         <h4>
           Do you have any questions or inquiries? Feel free to reach out to us!
@@ -130,7 +136,7 @@
         </div>
       </div>
 
-    </section>
+    </section> -->
   </main>
 
   <!-- Footer -->
